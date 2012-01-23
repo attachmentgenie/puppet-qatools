@@ -27,7 +27,6 @@ Jeweler::Tasks.new do |gem|
   gem.add_dependency 'puppet-lint'
   gem.add_dependency 'puppet-module'
   gem.add_dependency 'puppet-profiler'
-  gem.add_dependency 'puppet-testing'
   gem.add_dependency 'rspec-puppet'
 end
 Jeweler::RubygemsDotOrgTasks.new
