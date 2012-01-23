@@ -19,11 +19,13 @@ Gem::Specification.new do |s|
   s.files = [
     ".document",
     "Gemfile",
+    "Gemfile.lock",
     "LICENSE.txt",
     "README.rdoc",
     "Rakefile",
     "VERSION",
     "lib/puppet-qatools.rb",
+    "puppet-qatools.gemspec",
     "test/helper.rb",
     "test/test_puppet-qatools.rb"
   ]
@@ -41,17 +43,38 @@ Gem::Specification.new do |s|
       s.add_development_dependency(%q<bundler>, ["~> 1.0.0"])
       s.add_development_dependency(%q<jeweler>, ["~> 1.7.0"])
       s.add_development_dependency(%q<rcov>, [">= 0"])
+      s.add_runtime_dependency(%q<puppet-profiler>, [">= 0"])
+      s.add_runtime_dependency(%q<cucumber-puppet>, [">= 0"])
+      s.add_runtime_dependency(%q<puppet-module>, [">= 0"])
+      s.add_runtime_dependency(%q<puppet-lint>, [">= 0"])
+      s.add_runtime_dependency(%q<rspec-puppet>, [">= 0"])
+      s.add_runtime_dependency(%q<Finger-Puppet>, [">= 0"])
+      s.add_runtime_dependency(%q<puppet-testing>, [">= 0"])
     else
       s.add_dependency(%q<shoulda>, [">= 0"])
       s.add_dependency(%q<bundler>, ["~> 1.0.0"])
       s.add_dependency(%q<jeweler>, ["~> 1.7.0"])
       s.add_dependency(%q<rcov>, [">= 0"])
+      s.add_dependency(%q<puppet-profiler>, [">= 0"])
+      s.add_dependency(%q<cucumber-puppet>, [">= 0"])
+      s.add_dependency(%q<puppet-module>, [">= 0"])
+      s.add_dependency(%q<puppet-lint>, [">= 0"])
+      s.add_dependency(%q<rspec-puppet>, [">= 0"])
+      s.add_dependency(%q<Finger-Puppet>, [">= 0"])
+      s.add_dependency(%q<puppet-testing>, [">= 0"])
     end
   else
     s.add_dependency(%q<shoulda>, [">= 0"])
     s.add_dependency(%q<bundler>, ["~> 1.0.0"])
     s.add_dependency(%q<jeweler>, ["~> 1.7.0"])
     s.add_dependency(%q<rcov>, [">= 0"])
+    s.add_dependency(%q<puppet-profiler>, [">= 0"])
+    s.add_dependency(%q<cucumber-puppet>, [">= 0"])
+    s.add_dependency(%q<puppet-module>, [">= 0"])
+    s.add_dependency(%q<puppet-lint>, [">= 0"])
+    s.add_dependency(%q<rspec-puppet>, [">= 0"])
+    s.add_dependency(%q<Finger-Puppet>, [">= 0"])
+    s.add_dependency(%q<puppet-testing>, [">= 0"])
   end
 end
 
