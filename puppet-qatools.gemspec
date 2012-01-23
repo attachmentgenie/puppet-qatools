@@ -5,7 +5,7 @@
 
 Gem::Specification.new do |s|
   s.name = "puppet-qatools"
-  s.version = "0.2.0"
+  s.version = "0.2.1"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["attachmentgenie"]
@@ -43,38 +43,38 @@ Gem::Specification.new do |s|
       s.add_development_dependency(%q<bundler>, ["~> 1.0.0"])
       s.add_development_dependency(%q<jeweler>, ["~> 1.7.0"])
       s.add_development_dependency(%q<rcov>, [">= 0"])
-      s.add_runtime_dependency(%q<puppet-profiler>, [">= 0"])
       s.add_runtime_dependency(%q<cucumber-puppet>, [">= 0"])
-      s.add_runtime_dependency(%q<puppet-module>, [">= 0"])
+      s.add_runtime_dependency(%q<finger-puppet>, [">= 0"])
       s.add_runtime_dependency(%q<puppet-lint>, [">= 0"])
-      s.add_runtime_dependency(%q<rspec-puppet>, [">= 0"])
-      s.add_runtime_dependency(%q<Finger-Puppet>, [">= 0"])
+      s.add_runtime_dependency(%q<puppet-module>, [">= 0"])
+      s.add_runtime_dependency(%q<puppet-profiler>, [">= 0"])
       s.add_runtime_dependency(%q<puppet-testing>, [">= 0"])
+      s.add_runtime_dependency(%q<rspec-puppet>, [">= 0"])
     else
       s.add_dependency(%q<shoulda>, [">= 0"])
       s.add_dependency(%q<bundler>, ["~> 1.0.0"])
       s.add_dependency(%q<jeweler>, ["~> 1.7.0"])
       s.add_dependency(%q<rcov>, [">= 0"])
-      s.add_dependency(%q<puppet-profiler>, [">= 0"])
       s.add_dependency(%q<cucumber-puppet>, [">= 0"])
-      s.add_dependency(%q<puppet-module>, [">= 0"])
+      s.add_dependency(%q<finger-puppet>, [">= 0"])
       s.add_dependency(%q<puppet-lint>, [">= 0"])
-      s.add_dependency(%q<rspec-puppet>, [">= 0"])
-      s.add_dependency(%q<Finger-Puppet>, [">= 0"])
+      s.add_dependency(%q<puppet-module>, [">= 0"])
+      s.add_dependency(%q<puppet-profiler>, [">= 0"])
       s.add_dependency(%q<puppet-testing>, [">= 0"])
+      s.add_dependency(%q<rspec-puppet>, [">= 0"])
     end
   else
     s.add_dependency(%q<shoulda>, [">= 0"])
     s.add_dependency(%q<bundler>, ["~> 1.0.0"])
     s.add_dependency(%q<jeweler>, ["~> 1.7.0"])
     s.add_dependency(%q<rcov>, [">= 0"])
-    s.add_dependency(%q<puppet-profiler>, [">= 0"])
     s.add_dependency(%q<cucumber-puppet>, [">= 0"])
-    s.add_dependency(%q<puppet-module>, [">= 0"])
+    s.add_dependency(%q<finger-puppet>, [">= 0"])
     s.add_dependency(%q<puppet-lint>, [">= 0"])
-    s.add_dependency(%q<rspec-puppet>, [">= 0"])
-    s.add_dependency(%q<Finger-Puppet>, [">= 0"])
+    s.add_dependency(%q<puppet-module>, [">= 0"])
+    s.add_dependency(%q<puppet-profiler>, [">= 0"])
     s.add_dependency(%q<puppet-testing>, [">= 0"])
+    s.add_dependency(%q<rspec-puppet>, [">= 0"])
   end
 end
 
