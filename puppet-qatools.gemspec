@@ -5,11 +5,11 @@
 
 Gem::Specification.new do |s|
   s.name = "puppet-qatools"
-  s.version = "0.2.2"
+  s.version = "0.3.0"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["attachmentgenie"]
-  s.date = "2012-01-23"
+  s.date = "2012-01-24"
   s.description = "Meta Package for the Puppet Quality Assurance Toolchain"
   s.email = "bram@attachmentgenie.com"
   s.extra_rdoc_files = [
@@ -24,10 +24,7 @@ Gem::Specification.new do |s|
     "README.rdoc",
     "Rakefile",
     "VERSION",
-    "lib/puppet-qatools.rb",
-    "puppet-qatools.gemspec",
-    "test/helper.rb",
-    "test/test_puppet-qatools.rb"
+    "puppet-qatools.gemspec"
   ]
   s.homepage = "http://github.com/attachmentgenie/puppet-qatools"
   s.licenses = ["MIT"]
