@@ -22,11 +22,5 @@ Jeweler::Tasks.new do |gem|
   gem.email = "bram@attachmentgenie.com"
   gem.authors = ["attachmentgenie"]
   # dependencies defined in Gemfile
-  gem.add_dependency 'cucumber-puppet'
-  gem.add_dependency 'finger-puppet'
-  gem.add_dependency 'puppet-lint'
-  gem.add_dependency 'puppet-module'
-  gem.add_dependency 'puppet-profiler'
-  gem.add_dependency 'rspec-puppet'
 end
 Jeweler::RubygemsDotOrgTasks.new
