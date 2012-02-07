@@ -5,11 +5,11 @@
 
 Gem::Specification.new do |s|
   s.name = "puppet-qatools"
-  s.version = "0.3.4"
+  s.version = "0.4.0"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
-  s.authors = ["attachmentgenie"]
-  s.date = "2012-01-24"
+  s.authors = ["bram vogelaar"]
+  s.date = "2012-02-07"
   s.description = "Meta Package for the Puppet Quality Assurance Toolchain"
   s.email = "bram@attachmentgenie.com"
   s.extra_rdoc_files = [
@@ -35,35 +35,29 @@ Gem::Specification.new do |s|
     s.specification_version = 3
 
     if Gem::Version.new(Gem::VERSION) >= Gem::Version.new('1.2.0') then
-      s.add_runtime_dependency(%q<cucumber-puppet>, [">= 0"])
-      s.add_runtime_dependency(%q<finger-puppet>, [">= 0"])
       s.add_runtime_dependency(%q<puppet-lint>, [">= 0"])
-      s.add_runtime_dependency(%q<puppet-module>, [">= 0"])
       s.add_runtime_dependency(%q<puppet-profiler>, [">= 0"])
       s.add_runtime_dependency(%q<rspec-puppet>, [">= 0"])
+      s.add_runtime_dependency(%q<toft-puppet>, [">= 0"])
       s.add_development_dependency(%q<shoulda>, [">= 0"])
       s.add_development_dependency(%q<bundler>, ["~> 1.0.0"])
       s.add_development_dependency(%q<jeweler>, ["~> 1.7.0"])
       s.add_development_dependency(%q<rcov>, [">= 0"])
     else
-      s.add_dependency(%q<cucumber-puppet>, [">= 0"])
-      s.add_dependency(%q<finger-puppet>, [">= 0"])
       s.add_dependency(%q<puppet-lint>, [">= 0"])
-      s.add_dependency(%q<puppet-module>, [">= 0"])
       s.add_dependency(%q<puppet-profiler>, [">= 0"])
       s.add_dependency(%q<rspec-puppet>, [">= 0"])
+      s.add_dependency(%q<toft-puppet>, [">= 0"])
       s.add_dependency(%q<shoulda>, [">= 0"])
       s.add_dependency(%q<bundler>, ["~> 1.0.0"])
       s.add_dependency(%q<jeweler>, ["~> 1.7.0"])
       s.add_dependency(%q<rcov>, [">= 0"])
     end
   else
-    s.add_dependency(%q<cucumber-puppet>, [">= 0"])
-    s.add_dependency(%q<finger-puppet>, [">= 0"])
     s.add_dependency(%q<puppet-lint>, [">= 0"])
-    s.add_dependency(%q<puppet-module>, [">= 0"])
     s.add_dependency(%q<puppet-profiler>, [">= 0"])
     s.add_dependency(%q<rspec-puppet>, [">= 0"])
+    s.add_dependency(%q<toft-puppet>, [">= 0"])
     s.add_dependency(%q<shoulda>, [">= 0"])
     s.add_dependency(%q<bundler>, ["~> 1.0.0"])
     s.add_dependency(%q<jeweler>, ["~> 1.7.0"])
