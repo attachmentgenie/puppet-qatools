@@ -20,7 +20,7 @@ Jeweler::Tasks.new do |gem|
   gem.summary = %Q{Meta Package for the Puppet Quality Assurance Toolchain}
   gem.description = %Q{Meta Package for the Puppet Quality Assurance Toolchain}
   gem.email = "bram@attachmentgenie.com"
-  gem.authors = ["attachmentgenie"]
+  gem.authors = ["bram vogelaar"]
   # dependencies defined in Gemfile
 end
 Jeweler::RubygemsDotOrgTasks.new
