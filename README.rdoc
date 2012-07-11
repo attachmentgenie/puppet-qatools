@@ -1,3 +1,5 @@
+[![Build Status](https://secure.travis-ci.org/attachmentgenie/puppet-qatools.png)](http://travis-ci.org/attachmentgenie/puppet-qatools)
+
 = puppet-qatools
 
 Meta Package for the Puppet Quality Assurance Toolchain. It doesn't do much else then install other gems that are very useful while doing QA on a puppet installation.
