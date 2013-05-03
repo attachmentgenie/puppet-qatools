@@ -14,8 +14,8 @@ require 'rake'
 require 'jeweler'
 Jeweler::Tasks.new do |gem|
   # gem is a Gem::Specification... see http://docs.rubygems.org/read/chapter/20 for more options
-  gem.name = "hello-gem"
-  gem.homepage = "http://github.com/attachmentgenie/hello-gem"
+  gem.name = "puppet-qatools"
+  gem.homepage = "http://github.com/attachmentgenie/puppet-qatools"
   gem.license = "MIT"
   gem.summary = %Q{Meta Package for the Puppet Quality Assurance Toolchain}
   gem.description = %Q{Meta Package for the Puppet Quality Assurance Toolchain}
