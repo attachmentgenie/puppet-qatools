@@ -1,7 +1,6 @@
 source "https://rubygems.org"
 # Add dependencies required to use your gem here.
 # Example:
-#   gem "activesupport", ">= 2.3.5"
     gem "puppet-lint", ">= 0"
     gem "puppet-profiler", ">= 0"
     gem "rspec-puppet", ">= 0"
@@ -9,14 +8,9 @@ source "https://rubygems.org"
 # Add dependencies to develop your gem here.
 # Include everything needed to run rake, tests, features, etc.
 group :development do
-  gem "yard", "~> 0.7.4"
-  gem "rdoc"
-  gem "bluecloth"
-  gem "cucumber", "~> 1.1.4"
-  gem "rcov", "~> 0.9.8"
-end
-
-group :test do
-  gem "mocha"
-  gem "rake"
+  gem "shoulda", ">= 0"
+  gem "rdoc", "~> 3.12"
+  gem "bundler", ">= 0"
+  gem "jeweler", "~> 1.8.4"
+  gem "rcov", ">= 0"
 end
