@@ -17,8 +17,8 @@ Jeweler::Tasks.new do |gem|
   gem.name = "puppet-qatools"
   gem.homepage = "http://github.com/attachmentgenie/puppet-qatools"
   gem.license = "MIT"
-  gem.summary = %Q{Meta Package for the Puppet Quality Assurance Toolchain}
-  gem.description = %Q{Meta Package for the Puppet Quality Assurance Toolchain}
+  gem.summary = %Q{Meta package for the Puppet QA}
+  gem.description = %Q{Meta package for the Puppet Quality Assurance toolchain}
   gem.email = "bram@attachmentgenie.com"
   gem.authors = ["bram vogelaar"]
   # dependencies defined in Gemfile

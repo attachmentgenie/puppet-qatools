@@ -16,6 +16,6 @@ Meta Package for the Puppet Quality Assurance Toolchain. It doesn't do much else
 
 == Copyright
 
-Copyright (c) 2012 bram vogelaar. See LICENSE.txt for
+Copyright (c) 2015 bram vogelaar. See LICENSE.txt for
 further details.
 
